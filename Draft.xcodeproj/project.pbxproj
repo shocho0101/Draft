@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		CAF177A721C4B03200B003CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF177A621C4B03200B003CD /* AppDelegate.swift */; };
-		CAF177A921C4B03200B003CD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF177A821C4B03200B003CD /* ViewController.swift */; };
-		CAF177AC21C4B03200B003CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAF177AA21C4B03200B003CD /* Main.storyboard */; };
+		CAF177A921C4B03200B003CD /* ChooseProjectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF177A821C4B03200B003CD /* ChooseProjectViewController.swift */; };
+		CAF177AC21C4B03200B003CD /* ChooseProjectViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAF177AA21C4B03200B003CD /* ChooseProjectViewController.storyboard */; };
 		CAF177AE21C4B03400B003CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAF177AD21C4B03400B003CD /* Assets.xcassets */; };
 		CAF177B121C4B03400B003CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAF177AF21C4B03400B003CD /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -17,8 +17,8 @@
 /* Begin PBXFileReference section */
 		CAF177A321C4B03200B003CD /* Draft.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Draft.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAF177A621C4B03200B003CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CAF177A821C4B03200B003CD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CAF177AB21C4B03200B003CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CAF177A821C4B03200B003CD /* ChooseProjectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseProjectViewController.swift; sourceTree = "<group>"; };
+		CAF177AB21C4B03200B003CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/ChooseProjectViewController.storyboard; sourceTree = "<group>"; };
 		CAF177AD21C4B03400B003CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CAF177B021C4B03400B003CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CAF177B221C4B03400B003CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -75,7 +75,7 @@
 		D3875E3921C7DA5300126E85 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				CAF177AA21C4B03200B003CD /* Main.storyboard */,
+				CAF177AA21C4B03200B003CD /* ChooseProjectViewController.storyboard */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -83,7 +83,7 @@
 		D3875E3A21C7DA5700126E85 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				CAF177A821C4B03200B003CD /* ViewController.swift */,
+				CAF177A821C4B03200B003CD /* ChooseProjectViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -148,7 +148,7 @@
 			files = (
 				CAF177B121C4B03400B003CD /* LaunchScreen.storyboard in Resources */,
 				CAF177AE21C4B03400B003CD /* Assets.xcassets in Resources */,
-				CAF177AC21C4B03200B003CD /* Main.storyboard in Resources */,
+				CAF177AC21C4B03200B003CD /* ChooseProjectViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -159,7 +159,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CAF177A921C4B03200B003CD /* ViewController.swift in Sources */,
+				CAF177A921C4B03200B003CD /* ChooseProjectViewController.swift in Sources */,
 				CAF177A721C4B03200B003CD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -167,12 +167,12 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		CAF177AA21C4B03200B003CD /* Main.storyboard */ = {
+		CAF177AA21C4B03200B003CD /* ChooseProjectViewController.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				CAF177AB21C4B03200B003CD /* Base */,
 			);
-			name = Main.storyboard;
+			name = ChooseProjectViewController.storyboard;
 			sourceTree = "<group>";
 		};
 		CAF177AF21C4B03400B003CD /* LaunchScreen.storyboard */ = {
