@@ -12,7 +12,18 @@
 		CAF177AC21C4B03200B003CD /* ChooseProjectViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAF177AA21C4B03200B003CD /* ChooseProjectViewController.storyboard */; };
 		CAF177AE21C4B03400B003CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAF177AD21C4B03400B003CD /* Assets.xcassets */; };
 		CAF177B121C4B03400B003CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAF177AF21C4B03400B003CD /* LaunchScreen.storyboard */; };
+		CAF177C121C7F8C700B003CD /* DraftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF177C021C7F8C700B003CD /* DraftTests.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CAF177C321C7F8C700B003CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAF1779B21C4B03200B003CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAF177A221C4B03200B003CD;
+			remoteInfo = Draft;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		CAF177A321C4B03200B003CD /* Draft.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Draft.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -22,10 +33,20 @@
 		CAF177AD21C4B03400B003CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CAF177B021C4B03400B003CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CAF177B221C4B03400B003CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAF177BE21C7F8C700B003CD /* DraftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DraftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAF177C021C7F8C700B003CD /* DraftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DraftTests.swift; sourceTree = "<group>"; };
+		CAF177C221C7F8C700B003CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		CAF177A021C4B03200B003CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAF177BB21C7F8C700B003CD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,6 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				CAF177A521C4B03200B003CD /* Draft */,
+				CAF177BF21C7F8C700B003CD /* DraftTests */,
 				CAF177A421C4B03200B003CD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -47,6 +69,7 @@
 			isa = PBXGroup;
 			children = (
 				CAF177A321C4B03200B003CD /* Draft.app */,
+				CAF177BE21C7F8C700B003CD /* DraftTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -62,6 +85,15 @@
 				CAF177B221C4B03400B003CD /* Info.plist */,
 			);
 			path = Draft;
+			sourceTree = "<group>";
+		};
+		CAF177BF21C7F8C700B003CD /* DraftTests */ = {
+			isa = PBXGroup;
+			children = (
+				CAF177C021C7F8C700B003CD /* DraftTests.swift */,
+				CAF177C221C7F8C700B003CD /* Info.plist */,
+			);
+			path = DraftTests;
 			sourceTree = "<group>";
 		};
 		D3875E3921C7DA5300126E85 /* View */ = {
@@ -100,6 +132,24 @@
 			productReference = CAF177A321C4B03200B003CD /* Draft.app */;
 			productType = "com.apple.product-type.application";
 		};
+		CAF177BD21C7F8C700B003CD /* DraftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAF177C521C7F8C700B003CD /* Build configuration list for PBXNativeTarget "DraftTests" */;
+			buildPhases = (
+				CAF177BA21C7F8C700B003CD /* Sources */,
+				CAF177BB21C7F8C700B003CD /* Frameworks */,
+				CAF177BC21C7F8C700B003CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAF177C421C7F8C700B003CD /* PBXTargetDependency */,
+			);
+			name = DraftTests;
+			productName = DraftTests;
+			productReference = CAF177BE21C7F8C700B003CD /* DraftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -112,6 +162,10 @@
 				TargetAttributes = {
 					CAF177A221C4B03200B003CD = {
 						CreatedOnToolsVersion = 10.1;
+					};
+					CAF177BD21C7F8C700B003CD = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = CAF177A221C4B03200B003CD;
 					};
 				};
 			};
@@ -129,6 +183,7 @@
 			projectRoot = "";
 			targets = (
 				CAF177A221C4B03200B003CD /* Draft */,
+				CAF177BD21C7F8C700B003CD /* DraftTests */,
 			);
 		};
 /* End PBXProject section */
@@ -144,6 +199,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CAF177BC21C7F8C700B003CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -156,7 +218,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CAF177BA21C7F8C700B003CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAF177C121C7F8C700B003CD /* DraftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CAF177C421C7F8C700B003CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAF177A221C4B03200B003CD /* Draft */;
+			targetProxy = CAF177C321C7F8C700B003CD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		CAF177AA21C4B03200B003CD /* ChooseProjectViewController.storyboard */ = {
@@ -330,6 +408,46 @@
 			};
 			name = Release;
 		};
+		CAF177C621C7F8C700B003CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BV8VP6YGE9;
+				INFOPLIST_FILE = DraftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jp.choccho.DraftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Draft.app/Draft";
+			};
+			name = Debug;
+		};
+		CAF177C721C7F8C700B003CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BV8VP6YGE9;
+				INFOPLIST_FILE = DraftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jp.choccho.DraftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Draft.app/Draft";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -347,6 +465,15 @@
 			buildConfigurations = (
 				CAF177B621C4B03400B003CD /* Debug */,
 				CAF177B721C4B03400B003CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAF177C521C7F8C700B003CD /* Build configuration list for PBXNativeTarget "DraftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAF177C621C7F8C700B003CD /* Debug */,
+				CAF177C721C7F8C700B003CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
