@@ -1,2 +1,4 @@
 iosx_image: xcode10.1
 language: swift
+xcode-project: Draft.xcodeproj
+xcode-scheme: Draft
