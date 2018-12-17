@@ -56,20 +56,12 @@
 			children = (
 				D3875E3A21C7DA5700126E85 /* Controller */,
 				D3875E3921C7DA5300126E85 /* View */,
-				D3875E3821C7DA4B00126E85 /* Model */,
 				CAF177A621C4B03200B003CD /* AppDelegate.swift */,
 				CAF177AD21C4B03400B003CD /* Assets.xcassets */,
 				CAF177AF21C4B03400B003CD /* LaunchScreen.storyboard */,
 				CAF177B221C4B03400B003CD /* Info.plist */,
 			);
 			path = Draft;
-			sourceTree = "<group>";
-		};
-		D3875E3821C7DA4B00126E85 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 		D3875E3921C7DA5300126E85 /* View */ = {
