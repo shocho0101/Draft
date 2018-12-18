@@ -22,4 +22,15 @@ class ModelManager {
         
         //TODO: transition from beforeViewController to afterViewController
     }
+    
+    func deleteProject(project: ProjectModel) {
+        
+        if let target = projects.enumerated().filter({ (offSet, model) -> Bool in return model.id == project.id }).first {
+            
+            projects.remove(at: target.offset)
+            
+        }
+        
+    }
+    
 }
