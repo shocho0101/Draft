@@ -3,3 +3,7 @@ language: swift
 xcode_project: Draft.xcodeproj
 xcode_scheme: Draft
 xcode_destination: platform=iOS Simulator,OS=12.1,name=iPhone X
+cache:
+  - bundler
+before_script:
+  - bundle exec danger
