@@ -21,4 +21,10 @@ protocol ComponentModel {
     var type: ComponentType { get }
     var id: ComponentID { get }
     var parent: SceneModel { get }
+    
+    
+    mutating func tapped(at: CGPoint) -> Void
+    
+    mutating func draged(to: CGPoint, size: CGSize) -> Void
+    
 }

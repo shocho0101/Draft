@@ -45,6 +45,5 @@ struct ModelManager {
             projects.remove(at: target.offset)
             
         }
-        
     }
 }

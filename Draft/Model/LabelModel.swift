@@ -22,4 +22,19 @@ struct LabelModel: ComponentModel {
     var parent: SceneModel
     
     var text: String
+    
+    
+    mutating func tapped(at: CGPoint) {
+        
+        print("tapped at \(at)")
+        
+    }
+    
+    mutating func draged(to: CGPoint, size: CGSize) {
+        
+        self.size = size
+        
+        location = to
+    }
+    
 }
