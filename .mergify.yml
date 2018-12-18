@@ -1,0 +1,9 @@
+pull_request_rules:
+  - name: automatic merge
+    conditions:
+      - status-success=Travis CI - Pull Request
+      - label!=merge-manually
+    actions:
+      merge:
+        method: merge
+        strict: true
