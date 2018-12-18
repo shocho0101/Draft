@@ -11,12 +11,10 @@ import UIKit
 
 class ImageViewModel: ComponentModel {
     
-    var image: UIImage!
+    var image: UIImage?
     
     override init() {
         super.init()
         type = "imageView"
     }
-    
-    func onTap() { }
 }
