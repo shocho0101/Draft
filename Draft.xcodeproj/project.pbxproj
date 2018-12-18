@@ -13,7 +13,7 @@
 		CAF177AE21C4B03400B003CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAF177AD21C4B03400B003CD /* Assets.xcassets */; };
 		CAF177B121C4B03400B003CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAF177AF21C4B03400B003CD /* LaunchScreen.storyboard */; };
 		CAF177C121C7F8C700B003CD /* DraftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF177C021C7F8C700B003CD /* DraftTests.swift */; };
-		D301C99D21C8D809001AC42A /* ModelManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D301C99C21C8D809001AC42A /* ModelManager.swift */; };
+		D301C99D21C8D809001AC42A /* ProjectManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D301C99C21C8D809001AC42A /* ProjectManager.swift */; };
 		D378F20021C9101000557E3B /* UIComponentType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D378F1FF21C9101000557E3B /* UIComponentType.swift */; };
 		D37D9AB321C895AE00F132E0 /* ProjectModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37D9AB221C895AE00F132E0 /* ProjectModel.swift */; };
 		D37D9AB521C8962500F132E0 /* SceneModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37D9AB421C8962500F132E0 /* SceneModel.swift */; };
@@ -21,6 +21,8 @@
 		D37D9AB921C8963800F132E0 /* ButtonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37D9AB821C8963800F132E0 /* ButtonModel.swift */; };
 		D37D9ABB21C8964300F132E0 /* LabelModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37D9ABA21C8964300F132E0 /* LabelModel.swift */; };
 		D37D9ABD21C8964A00F132E0 /* ImageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37D9ABC21C8964A00F132E0 /* ImageViewModel.swift */; };
+		D385C78521C93E4B00A337DC /* SceneManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D385C78421C93E4B00A337DC /* SceneManager.swift */; };
+		D385C78721C93E6400A337DC /* ComponentManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D385C78621C93E6400A337DC /* ComponentManager.swift */; };
 		D3E2523E21C932A000A0DEF2 /* CallSegueProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E2523D21C932A000A0DEF2 /* CallSegueProtocol.swift */; };
 /* End PBXBuildFile section */
 
@@ -45,7 +47,7 @@
 		CAF177BE21C7F8C700B003CD /* DraftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DraftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAF177C021C7F8C700B003CD /* DraftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DraftTests.swift; sourceTree = "<group>"; };
 		CAF177C221C7F8C700B003CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D301C99C21C8D809001AC42A /* ModelManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelManager.swift; sourceTree = "<group>"; };
+		D301C99C21C8D809001AC42A /* ProjectManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectManager.swift; sourceTree = "<group>"; };
 		D378F1FF21C9101000557E3B /* UIComponentType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIComponentType.swift; sourceTree = "<group>"; };
 		D37D9AB221C895AE00F132E0 /* ProjectModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectModel.swift; sourceTree = "<group>"; };
 		D37D9AB421C8962500F132E0 /* SceneModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneModel.swift; sourceTree = "<group>"; };
@@ -53,6 +55,8 @@
 		D37D9AB821C8963800F132E0 /* ButtonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonModel.swift; sourceTree = "<group>"; };
 		D37D9ABA21C8964300F132E0 /* LabelModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelModel.swift; sourceTree = "<group>"; };
 		D37D9ABC21C8964A00F132E0 /* ImageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewModel.swift; sourceTree = "<group>"; };
+		D385C78421C93E4B00A337DC /* SceneManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneManager.swift; sourceTree = "<group>"; };
+		D385C78621C93E6400A337DC /* ComponentManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComponentManager.swift; sourceTree = "<group>"; };
 		D3E2523D21C932A000A0DEF2 /* CallSegueProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallSegueProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -129,7 +133,9 @@
 				D37D9AB821C8963800F132E0 /* ButtonModel.swift */,
 				D37D9ABA21C8964300F132E0 /* LabelModel.swift */,
 				D37D9ABC21C8964A00F132E0 /* ImageViewModel.swift */,
-				D301C99C21C8D809001AC42A /* ModelManager.swift */,
+				D301C99C21C8D809001AC42A /* ProjectManager.swift */,
+				D385C78421C93E4B00A337DC /* SceneManager.swift */,
+				D385C78621C93E6400A337DC /* ComponentManager.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -284,12 +290,14 @@
 				CAF177A721C4B03200B003CD /* AppDelegate.swift in Sources */,
 				D37D9AB521C8962500F132E0 /* SceneModel.swift in Sources */,
 				D3E2523E21C932A000A0DEF2 /* CallSegueProtocol.swift in Sources */,
+				D385C78721C93E6400A337DC /* ComponentManager.swift in Sources */,
 				D37D9AB321C895AE00F132E0 /* ProjectModel.swift in Sources */,
 				D37D9ABB21C8964300F132E0 /* LabelModel.swift in Sources */,
-				D301C99D21C8D809001AC42A /* ModelManager.swift in Sources */,
+				D301C99D21C8D809001AC42A /* ProjectManager.swift in Sources */,
 				D37D9AB721C8963100F132E0 /* UIComponentModel.swift in Sources */,
 				D37D9ABD21C8964A00F132E0 /* ImageViewModel.swift in Sources */,
 				D37D9AB921C8963800F132E0 /* ButtonModel.swift in Sources */,
+				D385C78521C93E4B00A337DC /* SceneManager.swift in Sources */,
 				D378F20021C9101000557E3B /* UIComponentType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
