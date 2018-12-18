@@ -9,11 +9,16 @@
 import Foundation
 import UIKit
 
+
+struct ComponentID {
+    let rawValue: String
+}
+
 protocol ComponentModel {
     
     var size: CGSize { get set }
     var location: CGPoint { get set }
     var type: ComponentType { get }
-    var id: String { get }
+    var id: ComponentID { get }
     var parent: SceneModel { get }
 }

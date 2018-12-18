@@ -17,7 +17,7 @@ struct ImageViewModel: ComponentModel {
     
     var type: ComponentType = .imageView
     
-    var id: String
+    var id: ComponentID
     
     var parent: SceneModel
     

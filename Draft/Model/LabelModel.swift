@@ -17,7 +17,7 @@ struct LabelModel: ComponentModel {
     
     var type: ComponentType = .label
     
-    var id: String
+    var id: ComponentID
     
     var parent: SceneModel
     

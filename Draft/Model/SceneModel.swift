@@ -9,9 +9,13 @@
 import Foundation
 import UIKit
 
+struct SceneID {
+    let rawValue: String
+}
+
 struct SceneModel {
     
-    var id: String?
+    var id: SceneID
     var childComponent: [ComponentModel] = []
     var parent: ProjectModel
 }
