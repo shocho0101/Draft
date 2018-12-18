@@ -12,6 +12,6 @@ import UIKit
 class SceneModel {
     
     var id: String!
-    var childComponent: [ComponentModel] = []
+    var childComponents: [ComponentModel] = []
     weak var parent: ProjectModel?
 }
