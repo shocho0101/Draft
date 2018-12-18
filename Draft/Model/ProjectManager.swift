@@ -10,7 +10,7 @@ import Foundation
 import UIKit
 
 
-struct ModelManager {
+struct ProjectManager {
 
     static var projects: [ProjectModel] = []
     
@@ -26,8 +26,6 @@ struct ModelManager {
         
         project.name = "app\(projects.count + 1)" // set default name
         projects.append(project)
-        
-        //TODO: upload realmDatabase this projects.
         
         //TODO: transition from beforeViewController to afterViewController
     }
