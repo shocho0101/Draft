@@ -17,6 +17,4 @@ class ButtonModel: ComponentModel {
         super.init()
         type = "button"
     }
-    
-    func onTap() { }
 }

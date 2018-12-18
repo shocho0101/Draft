@@ -16,4 +16,7 @@ class ComponentModel {
     var type: String!
     var id: String!
     weak var parent: SceneModel?
+    
+    init() {
+    }
 }

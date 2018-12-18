@@ -17,6 +17,4 @@ class ImageViewModel: ComponentModel {
         super.init()
         type = "imageView"
     }
-    
-    func onTap() { }
 }
