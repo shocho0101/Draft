@@ -17,7 +17,7 @@ struct ButtonModel: ComponentModel {
     
     var type: ComponentType = .button
     
-    var id: String
+    var id: ComponentID
     
     var parent: SceneModel
     
