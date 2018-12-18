@@ -21,6 +21,7 @@
 		D37D9AB921C8963800F132E0 /* ButtonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37D9AB821C8963800F132E0 /* ButtonModel.swift */; };
 		D37D9ABB21C8964300F132E0 /* LabelModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37D9ABA21C8964300F132E0 /* LabelModel.swift */; };
 		D37D9ABD21C8964A00F132E0 /* ImageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37D9ABC21C8964A00F132E0 /* ImageViewModel.swift */; };
+		D3E2523E21C932A000A0DEF2 /* CallSegueProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E2523D21C932A000A0DEF2 /* CallSegueProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		D37D9AB821C8963800F132E0 /* ButtonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonModel.swift; sourceTree = "<group>"; };
 		D37D9ABA21C8964300F132E0 /* LabelModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelModel.swift; sourceTree = "<group>"; };
 		D37D9ABC21C8964A00F132E0 /* ImageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewModel.swift; sourceTree = "<group>"; };
+		D3E2523D21C932A000A0DEF2 /* CallSegueProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallSegueProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,10 @@
 		CAF177A521C4B03200B003CD /* Draft */ = {
 			isa = PBXGroup;
 			children = (
+				D3E2524221C9330600A0DEF2 /* Presenter */,
+				D3E2524021C932D200A0DEF2 /* Interactor */,
+				D3E2523F21C932CB00A0DEF2 /* Worker */,
+				D3E2523C21C9327900A0DEF2 /* Router */,
 				D37D9AB121C8959A00F132E0 /* Model */,
 				D3875E3A21C7DA5700126E85 /* Controller */,
 				D3875E3921C7DA5300126E85 /* View */,
@@ -142,6 +148,35 @@
 				CAF177A821C4B03200B003CD /* ChooseProjectViewController.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		D3E2523C21C9327900A0DEF2 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				D3E2523D21C932A000A0DEF2 /* CallSegueProtocol.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		D3E2523F21C932CB00A0DEF2 /* Worker */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Worker;
+			sourceTree = "<group>";
+		};
+		D3E2524021C932D200A0DEF2 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		D3E2524221C9330600A0DEF2 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presenter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -248,6 +283,7 @@
 				CAF177A921C4B03200B003CD /* ChooseProjectViewController.swift in Sources */,
 				CAF177A721C4B03200B003CD /* AppDelegate.swift in Sources */,
 				D37D9AB521C8962500F132E0 /* SceneModel.swift in Sources */,
+				D3E2523E21C932A000A0DEF2 /* CallSegueProtocol.swift in Sources */,
 				D37D9AB321C895AE00F132E0 /* ProjectModel.swift in Sources */,
 				D37D9ABB21C8964300F132E0 /* LabelModel.swift in Sources */,
 				D301C99D21C8D809001AC42A /* ModelManager.swift in Sources */,
