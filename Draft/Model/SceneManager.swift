@@ -11,16 +11,15 @@ import Foundation
 
 struct SceneManager {
     
-    static var scenes:[SceneModel] = []
-    
-    static func createScene(index: Int) {
+    static func createScene(parent: ProjectModel) -> SceneModel {
         
         let scene =  SceneModel(
             id: SceneID(rawValue: UUID.init().uuidString),
             childComponent: [],
-            parent: ProjectManager.projects[index]
+            parent: parent
         )
         
-        ProjectManager.projects[index].childScenes.append(scene)
+        return scene
+        
     }
 }

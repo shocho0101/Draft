@@ -11,12 +11,10 @@ import UIKit
 
 
 struct ProjectManager {
-
-    static var projects: [ProjectModel] = []
     
-    static func createdProject() {
+    static func createdProject() -> ProjectModel {
         
-        var project = ProjectModel(
+        let project = ProjectModel(
             childScenes: [],
             id: ProjectID(rawValue: UUID.init().uuidString),
             name: nil,
@@ -24,24 +22,19 @@ struct ProjectManager {
             updatedDate: Date()
         )
         
-        project.name = "app\(projects.count + 1)" // set default name
-        projects.append(project)
-        
         //TODO: transition from beforeViewController to afterViewController
+        
+        return project
+        
     }
     
-    static func deleteProject(project: ProjectModel) {
+    static func deleteProject(projects: [ProjectModel], index: Int) -> [ProjectModel] {
         
-        if let target = projects.enumerated().filter({ (arg) -> Bool in
-            
-            let (_, model) = arg
-            
-            return model.id.rawValue == project.id.rawValue
-            
-        }).first {
-            
-            projects.remove(at: target.offset)
-            
-        }
+        var projectModelArray =  projects
+        
+        projectModelArray.remove(at: index)
+        
+        return projectModelArray
+        
     }
 }

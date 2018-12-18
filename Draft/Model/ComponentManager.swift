@@ -9,8 +9,4 @@
 import Foundation
 
 
-struct ComponentManager {
-    
-    static var components: [ComponentModel] = []
-    
-}
+struct ComponentManager { }
