@@ -9,12 +9,17 @@
 import Foundation
 import UIKit
 
-class ButtonModel: ComponentModel {
+struct ButtonModel: ComponentModel {
     
-    var name: String!
+    var size: CGSize
     
-    override init() {
-        super.init()
-        type = "button"
-    }
+    var location: CGPoint
+    
+    var type: ComponentType = .button
+    
+    var id: String
+    
+    var parent: SceneModel
+    
+    var name: String
 }

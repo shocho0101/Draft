@@ -9,17 +9,17 @@
 import Foundation
 import UIKit
 
-class ProjectModel {
+struct ProjectID {
+    let rawValue: String
+}
+
+struct ProjectModel {
     
     var childScenes: [SceneModel] = []
-    var id: String!
-    var name: String!
-    var createdDate: Date!
-    var updatedDate: Date!
     
-    init() {
-        id = UUID.init().uuidString
-        createdDate = Date()
-        updatedDate = Date()
-    }
+    var id: ProjectID
+    
+    var name: String?
+    var createdDate: Date
+    var updatedDate: Date
 }

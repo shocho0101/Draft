@@ -9,12 +9,17 @@
 import Foundation
 import UIKit
 
-class ImageViewModel: ComponentModel {
+struct ImageViewModel: ComponentModel {
     
-    var image: UIImage!
+    var size: CGSize
     
-    override init() {
-        super.init()
-        type = "imageView"
-    }
+    var location: CGPoint
+    
+    var type: ComponentType = .imageView
+    
+    var id: String
+    
+    var parent: SceneModel
+    
+    var image: UIImage?
 }

@@ -9,14 +9,11 @@
 import Foundation
 import UIKit
 
-class ComponentModel {
+protocol ComponentModel {
     
-    var size: CGSize!
-    var location: CGSize!
-    var type: String!
-    var id: String!
-    weak var parent: SceneModel?
-    
-    init() {
-    }
+    var size: CGSize { get set }
+    var location: CGPoint { get set }
+    var type: ComponentType { get }
+    var id: String { get }
+    var parent: SceneModel { get }
 }
