@@ -9,9 +9,9 @@
 import Foundation
 import UIKit
 
-class SceneModel {
+struct SceneModel {
     
-    var id: String!
+    var id: String?
     var childComponent: [ComponentModel] = []
-    weak var parent: ProjectModel?
+    var parent: ProjectModel
 }

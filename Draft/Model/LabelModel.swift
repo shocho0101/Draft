@@ -9,12 +9,17 @@
 import Foundation
 import UIKit
 
-class LabelModel: ComponentModel {
+struct LabelModel: ComponentModel {
     
-    var text: String!
+    var size: CGSize
     
-    override init() {
-        super.init()
-        type = "label"
-    }
+    var location: CGPoint
+    
+    var type: ComponentType = .label
+    
+    var id: String
+    
+    var parent: SceneModel
+    
+    var text: String
 }
