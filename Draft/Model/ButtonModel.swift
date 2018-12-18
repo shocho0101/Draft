@@ -22,4 +22,16 @@ struct ButtonModel: ComponentModel {
     var parent: SceneModel
     
     var name: String
+    
+    func tapped(at: CGPoint) {
+        
+    }
+    
+    mutating func draged(to: CGPoint, size: CGSize) {
+        
+        self.size = size
+        
+        self.location = to
+    }
+    
 }

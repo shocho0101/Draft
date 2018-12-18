@@ -22,4 +22,18 @@ struct ImageViewModel: ComponentModel {
     var parent: SceneModel
     
     var image: UIImage?
+    
+    
+    func tapped(at: CGPoint) {
+        
+    }
+    
+    mutating func draged(to: CGPoint, size: CGSize) {
+        
+        self.size = size
+        
+        self.location = to
+        
+    }
+    
 }
