@@ -13,6 +13,12 @@
 		CAF177AE21C4B03400B003CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAF177AD21C4B03400B003CD /* Assets.xcassets */; };
 		CAF177B121C4B03400B003CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAF177AF21C4B03400B003CD /* LaunchScreen.storyboard */; };
 		CAF177C121C7F8C700B003CD /* DraftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF177C021C7F8C700B003CD /* DraftTests.swift */; };
+		D37D9AB321C895AE00F132E0 /* ProjectModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37D9AB221C895AE00F132E0 /* ProjectModel.swift */; };
+		D37D9AB521C8962500F132E0 /* SceneModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37D9AB421C8962500F132E0 /* SceneModel.swift */; };
+		D37D9AB721C8963100F132E0 /* UIComponentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37D9AB621C8963100F132E0 /* UIComponentModel.swift */; };
+		D37D9AB921C8963800F132E0 /* ButtonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37D9AB821C8963800F132E0 /* ButtonModel.swift */; };
+		D37D9ABB21C8964300F132E0 /* LabelModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37D9ABA21C8964300F132E0 /* LabelModel.swift */; };
+		D37D9ABD21C8964A00F132E0 /* ImageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37D9ABC21C8964A00F132E0 /* ImageViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +42,12 @@
 		CAF177BE21C7F8C700B003CD /* DraftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DraftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAF177C021C7F8C700B003CD /* DraftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DraftTests.swift; sourceTree = "<group>"; };
 		CAF177C221C7F8C700B003CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D37D9AB221C895AE00F132E0 /* ProjectModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectModel.swift; sourceTree = "<group>"; };
+		D37D9AB421C8962500F132E0 /* SceneModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneModel.swift; sourceTree = "<group>"; };
+		D37D9AB621C8963100F132E0 /* UIComponentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIComponentModel.swift; sourceTree = "<group>"; };
+		D37D9AB821C8963800F132E0 /* ButtonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonModel.swift; sourceTree = "<group>"; };
+		D37D9ABA21C8964300F132E0 /* LabelModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelModel.swift; sourceTree = "<group>"; };
+		D37D9ABC21C8964A00F132E0 /* ImageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +89,7 @@
 		CAF177A521C4B03200B003CD /* Draft */ = {
 			isa = PBXGroup;
 			children = (
+				D37D9AB121C8959A00F132E0 /* Model */,
 				D3875E3A21C7DA5700126E85 /* Controller */,
 				D3875E3921C7DA5300126E85 /* View */,
 				CAF177A621C4B03200B003CD /* AppDelegate.swift */,
@@ -94,6 +107,19 @@
 				CAF177C221C7F8C700B003CD /* Info.plist */,
 			);
 			path = DraftTests;
+			sourceTree = "<group>";
+		};
+		D37D9AB121C8959A00F132E0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D37D9AB221C895AE00F132E0 /* ProjectModel.swift */,
+				D37D9AB421C8962500F132E0 /* SceneModel.swift */,
+				D37D9AB621C8963100F132E0 /* UIComponentModel.swift */,
+				D37D9AB821C8963800F132E0 /* ButtonModel.swift */,
+				D37D9ABA21C8964300F132E0 /* LabelModel.swift */,
+				D37D9ABC21C8964A00F132E0 /* ImageViewModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		D3875E3921C7DA5300126E85 /* View */ = {
@@ -215,6 +241,12 @@
 			files = (
 				CAF177A921C4B03200B003CD /* ChooseProjectViewController.swift in Sources */,
 				CAF177A721C4B03200B003CD /* AppDelegate.swift in Sources */,
+				D37D9AB521C8962500F132E0 /* SceneModel.swift in Sources */,
+				D37D9AB321C895AE00F132E0 /* ProjectModel.swift in Sources */,
+				D37D9ABB21C8964300F132E0 /* LabelModel.swift in Sources */,
+				D37D9AB721C8963100F132E0 /* UIComponentModel.swift in Sources */,
+				D37D9ABD21C8964A00F132E0 /* ImageViewModel.swift in Sources */,
+				D37D9AB921C8963800F132E0 /* ButtonModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
