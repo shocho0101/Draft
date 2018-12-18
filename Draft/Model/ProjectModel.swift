@@ -15,4 +15,12 @@ class ProjectModel {
     var id: String!
     var name: String!
     var createdDate: Date!
+    var updatedDate: Date!
+    
+    init() {
+        self.id = UUID.init().uuidString
+        self.createdDate = Date()
+        self.updatedDate = Date()
+    }
+    
 }
