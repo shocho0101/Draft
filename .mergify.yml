@@ -2,6 +2,7 @@ pull_request_rules:
   - name: automatic merge
     conditions:
       - status-success=Travis CI - Pull Request
+      - status-success=codeclimate
       - label!=merge-manually
     actions:
       merge:
