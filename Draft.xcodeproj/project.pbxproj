@@ -13,6 +13,7 @@
 		CAF177AE21C4B03400B003CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAF177AD21C4B03400B003CD /* Assets.xcassets */; };
 		CAF177B121C4B03400B003CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAF177AF21C4B03400B003CD /* LaunchScreen.storyboard */; };
 		CAF177C121C7F8C700B003CD /* DraftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF177C021C7F8C700B003CD /* DraftTests.swift */; };
+		CAF177CF21C9EE5700B003CD /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF177CE21C9EE5700B003CD /* test.swift */; };
 		D301C99D21C8D809001AC42A /* ProjectManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D301C99C21C8D809001AC42A /* ProjectManager.swift */; };
 		D378F20021C9101000557E3B /* UIComponentType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D378F1FF21C9101000557E3B /* UIComponentType.swift */; };
 		D37D9AB321C895AE00F132E0 /* ProjectModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37D9AB221C895AE00F132E0 /* ProjectModel.swift */; };
@@ -47,6 +48,7 @@
 		CAF177BE21C7F8C700B003CD /* DraftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DraftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAF177C021C7F8C700B003CD /* DraftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DraftTests.swift; sourceTree = "<group>"; };
 		CAF177C221C7F8C700B003CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAF177CE21C9EE5700B003CD /* test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
 		D301C99C21C8D809001AC42A /* ProjectManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectManager.swift; sourceTree = "<group>"; };
 		D378F1FF21C9101000557E3B /* UIComponentType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIComponentType.swift; sourceTree = "<group>"; };
 		D37D9AB221C895AE00F132E0 /* ProjectModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectModel.swift; sourceTree = "<group>"; };
@@ -110,6 +112,7 @@
 				CAF177AD21C4B03400B003CD /* Assets.xcassets */,
 				CAF177AF21C4B03400B003CD /* LaunchScreen.storyboard */,
 				CAF177B221C4B03400B003CD /* Info.plist */,
+				CAF177CE21C9EE5700B003CD /* test.swift */,
 			);
 			path = Draft;
 			sourceTree = "<group>";
@@ -299,6 +302,7 @@
 				D37D9AB921C8963800F132E0 /* ButtonModel.swift in Sources */,
 				D385C78521C93E4B00A337DC /* SceneManager.swift in Sources */,
 				D378F20021C9101000557E3B /* UIComponentType.swift in Sources */,
+				CAF177CF21C9EE5700B003CD /* test.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
